@@ -1,0 +1,185 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --green: #00ff88;
+  --green-dim: #00cc6a;
+  --green-glow: rgba(0, 255, 136, 0.15);
+  --green-glow-strong: rgba(0, 255, 136, 0.35);
+  --black: #000000;
+  --black-900: #050505;
+  --black-800: #0d0d0d;
+  --black-700: #141414;
+  --black-600: #1c1c1c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--black);
+  color: #ffffff;
+  font-family: var(--font-poppins), var(--font-outfit), sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--black-800);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--green-dim);
+  border-radius: 3px;
+}
+
+/* Selection */
+::selection {
+  background: rgba(0, 255, 136, 0.25);
+  color: #00ff88;
+}
+
+/* Glow utilities */
+.glow-green {
+  box-shadow: 0 0 30px rgba(0, 255, 136, 0.25), 0 0 60px rgba(0, 255, 136, 0.1);
+}
+
+.glow-green-sm {
+  box-shadow: 0 0 15px rgba(0, 255, 136, 0.2);
+}
+
+.text-glow {
+  text-shadow: 0 0 20px rgba(0, 255, 136, 0.5);
+}
+
+/* Grid background */
+.grid-bg {
+  background-image: linear-gradient(rgba(0, 255, 136, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 136, 0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Noise overlay */
+.noise::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  opacity: 0.4;
+  mix-blend-mode: overlay;
+}
+
+/* Border glow on hover */
+.border-glow-hover {
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+.border-glow-hover:hover {
+  border-color: rgba(0, 255, 136, 0.5) !important;
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.15);
+}
+
+/* Terminal cursor blink */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.cursor-blink {
+  animation: blink 1s step-end infinite;
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #00ff88 0%, #00cc6a 50%, #ffffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* FAQ accordion */
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.3s ease;
+}
+.faq-answer.open {
+  max-height: 300px;
+}
+
+/* Pricing toggle */
+.toggle-track {
+  transition: background-color 0.3s ease;
+}
+
+/* Scrolling marquee */
+.marquee-inner {
+  display: flex;
+  width: max-content;
+  animation: scrollLeft 30s linear infinite;
+}
+.marquee-inner:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scrollLeft {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Stagger animation delays */
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+.delay-600 { animation-delay: 600ms; }
+
+/* Animate on scroll helper */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* V-Shape Animation */
+@keyframes vLinePulse {
+  0%, 100% {
+    opacity: 0.3;
+    filter: blur(0px) drop-shadow(0 0 6px rgba(0,255,136,0.3));
+  }
+  50% {
+    opacity: 0.8;
+    filter: blur(0.5px) drop-shadow(0 0 18px rgba(0,255,136,0.6));
+  }
+}
+
+@keyframes vLineShimmer {
+  0% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0% -100%;
+  }
+}
+
+@keyframes vContainerFloat {
+  0%, 100% {
+    transform: perspective(800px) rotateX(2deg) translateY(0px);
+  }
+  50% {
+    transform: perspective(800px) rotateX(-1deg) translateY(-6px);
+  }
+}
