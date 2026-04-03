@@ -33,7 +33,7 @@ export default function FAQ() {
   const [open, setOpen] = useState<number | null>(0);
 
   return (
-    <section id="faq" className="py-28 relative">
+    <section id="faq" className="py-28 relative overflow-hidden">
       <div className="absolute right-0 bottom-0 w-[400px] h-[400px] bg-green-500/3 blur-3xl pointer-events-none" />
 
       <div className="max-w-3xl mx-auto px-6 lg:px-8 relative z-10">

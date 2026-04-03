@@ -235,7 +235,7 @@ export default function Hero() {
           style={{
             fontFamily: "var(--font-poppins), var(--font-syne), sans-serif",
             fontWeight: 800,
-            fontSize: "clamp(36px, 6vw, 76px)",
+            fontSize: "clamp(32px, 8vw, 76px)",
             lineHeight: 1.05,
             color: "#ffffff",
             margin: "0 0 20px 0",
@@ -251,7 +251,7 @@ export default function Hero() {
         <p
           style={{
             fontFamily: "var(--font-poppins), sans-serif",
-            fontSize: "clamp(14px, 1.8vw, 18px)",
+            fontSize: "clamp(14px, 4vw, 18px)",
             color: "rgba(255,255,255,0.5)",
             lineHeight: 1.7,
             maxWidth: "560px",
@@ -264,7 +264,7 @@ export default function Hero() {
         </p>
 
         {/* CTA Buttons */}
-        <div style={{ display: "flex", gap: "16px", flexWrap: "wrap", justifyContent: "center" }}>
+        <div className="flex flex-col sm:flex-row gap-4 flex-wrap justify-center w-full px-4 sm:px-0">
           <a
             href="#pricing"
             className="glow-green-sm"

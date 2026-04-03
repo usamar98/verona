@@ -96,8 +96,8 @@ function FeatureCard({
     <div
       ref={cardRef}
       onMouseMove={handleMouseMove}
-      className={`group relative overflow-hidden rounded-[32px] bg-[#0c0c0c] border border-white/5 transition-all duration-500 hover:-translate-y-1 hover:shadow-2xl hover:shadow-[#00ff88]/10 ${
-        feat.wide ? "lg:col-span-2" : "col-span-1"
+      className={`group relative overflow-hidden rounded-[32px] bg-[#0c0c0c] border border-white/5 transition-all duration-500 hover:-translate-y-1 hover:shadow-2xl hover:shadow-[#00ff88]/10 h-full flex flex-col ${
+        feat.wide ? "sm:col-span-2 lg:col-span-2" : "col-span-1"
       }`}
       style={{
         fontFamily: "var(--font-poppins), sans-serif",
@@ -123,7 +123,7 @@ function FeatureCard({
       />
 
       {/* ── CARD INNER WRAPPER ── */}
-      <div className="relative z-0 h-full w-full p-8 sm:p-10 flex flex-col justify-between overflow-hidden">
+      <div className="relative z-0 h-full w-full p-6 sm:p-8 md:p-10 flex flex-col justify-between overflow-hidden">
         
         {/* Subtle background abstract gradient */}
         <div className="absolute -bottom-[20%] -right-[20%] h-[150%] w-[100%] rounded-full bg-[radial-gradient(circle,rgba(0,255,136,0.05)_0%,transparent_60%)] blur-2xl group-hover:bg-[radial-gradient(circle,rgba(0,255,136,0.08)_0%,transparent_60%)] transition-colors duration-700" />
@@ -183,7 +183,7 @@ export default function Features() {
           </div>
           
           <h2 
-            className="text-4xl md:text-5xl lg:text-7xl font-bold text-white tracking-tight"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white tracking-tight"
             style={{ fontFamily: "var(--font-syne), sans-serif", lineHeight: 1.1 }}
           >
             Capabilities that feel <br className="hidden md:block" />
@@ -196,7 +196,7 @@ export default function Features() {
         </div>
 
         {/* Bento Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[minmax(300px,auto)]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[minmax(300px,auto)]">
           {features.map((feat, i) => (
             <FeatureCard key={i} feat={feat} />
           ))}
