@@ -59,9 +59,9 @@ export default function Hero() {
           height: "100%",
           pointerEvents: "none",
           zIndex: 1,
-          animation: "vContainerFloat 8s ease-in-out infinite",
         }}
       >
+        <div style={{ width: "100%", height: "100%", position: "relative", animation: "vContainerFloat 8s ease-in-out infinite" }}>
         {/* V-shape origin glow */}
         <div
           style={{
@@ -178,6 +178,7 @@ export default function Hero() {
             />
           </div>
         ))}
+        </div>
       </div>
 
       {/* ── HERO TEXT — perfectly centered ── */}
