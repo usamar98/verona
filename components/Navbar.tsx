@@ -69,17 +69,17 @@ export default function Navbar() {
               style={{
                 width: "32px",
                 height: "32px",
-                borderRadius: "8px",
-                background: "#00ff88",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
+                background: "transparent",
               }}
             >
-              <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
-                <path d="M9 2L15.5 6V12L9 16L2.5 12V6L9 2Z" fill="black" />
-                <path d="M9 6L12 8V12L9 14L6 12V8L9 6Z" fill="#00ff88" />
-              </svg>
+              <img 
+                src="/vorena logo trans.png" 
+                alt="Vorena Logo" 
+                style={{ width: "100%", height: "100%", objectFit: "contain" }} 
+              />
             </div>
             <span
               style={{

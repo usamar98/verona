@@ -37,6 +37,9 @@ export const metadata: Metadata = {
   description:
     "Deploy intelligent AI agents to host AMAs, engage your community, and automate Web3 communication at scale. Built on Base chain.",
   keywords: ["Web3", "AI Agent", "AMA", "Blockchain", "DApp", "Base chain"],
+  icons: {
+    icon: "/vorena logo trans.png",
+  },
 };
 
 export default function RootLayout({
