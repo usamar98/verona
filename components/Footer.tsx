@@ -90,7 +90,7 @@ export default function Footer() {
                 className="font-syne text-xl tracking-widest text-white"
                 style={{ fontWeight: 800 }}
               >
-                VORENA
+                Vorena
               </span>
             </a>
             <p className="text-sm text-white/40 font-outfit leading-relaxed max-w-xs">
@@ -138,7 +138,7 @@ export default function Footer() {
         {/* Bottom: Copyright + chain info */}
         <div className="border-t border-white/5 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-white/25 font-outfit">
-            © 2025 VORENA. All rights reserved.
+            © 2025 Vorena. All rights reserved.
           </p>
           <div className="flex items-center gap-5">
             <div className="flex items-center gap-1.5">

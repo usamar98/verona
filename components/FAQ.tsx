@@ -4,16 +4,16 @@ import { useState } from "react";
 
 const faqs = [
   {
-    q: "What blockchain does VORENA operate on?",
-    a: "VORENA is built natively on Base chain — Coinbase's L2 Ethereum network. This means low gas fees, fast transactions, and seamless integration with the broader Ethereum ecosystem. All payments and subscriptions are settled on-chain.",
+    q: "What blockchain does Vorena operate on?",
+    a: "Vorena is built natively on Base chain — Coinbase's L2 Ethereum network. This means low gas fees, fast transactions, and seamless integration with the broader Ethereum ecosystem. All payments and subscriptions are settled on-chain.",
   },
   {
     q: "How does the AI agent learn about my project?",
-    a: "VORENA uses Retrieval-Augmented Generation (RAG). You upload your project documents — whitepapers, tokenomics, roadmaps, FAQs — and the AI agent indexes them instantly. During AMAs, it retrieves precise context from your documents to generate accurate, relevant answers.",
+    a: "Vorena uses Retrieval-Augmented Generation (RAG). You upload your project documents — whitepapers, tokenomics, roadmaps, FAQs — and the AI agent indexes them instantly. During AMAs, it retrieves precise context from your documents to generate accurate, relevant answers.",
   },
   {
     q: "Can I control who asks questions during a session?",
-    a: "Absolutely. VORENA offers full session moderation tools: whitelist specific wallet addresses, restrict questions to token holders, mute all participants, or open the floor freely. You have the same level of control you'd expect in a professional video conferencing tool — but Web3-native.",
+    a: "Absolutely. Vorena offers full session moderation tools: whitelist specific wallet addresses, restrict questions to token holders, mute all participants, or open the floor freely. You have the same level of control you'd expect in a professional video conferencing tool — but Web3-native.",
   },
   {
     q: "What happens after an AMA session ends?",
@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     q: "Can I list my agent in the marketplace?",
-    a: "Yes. Once built and verified, you can list your AI agent in the VORENA marketplace for other projects to rent or hire. You set your own pricing and earn revenue directly to your wallet — all on-chain.",
+    a: "Yes. Once built and verified, you can list your AI agent in the Vorena marketplace for other projects to rent or hire. You set your own pricing and earn revenue directly to your wallet — all on-chain.",
   },
 ];
 

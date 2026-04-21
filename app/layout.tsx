@@ -33,7 +33,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "VORENA — AI-Powered AMA Platform for Web3",
+  title: "Vorena — AI-Powered AMA Platform for Web3",
   description:
     "Deploy intelligent AI agents to host AMAs, engage your community, and automate Web3 communication at scale. Built on Base chain.",
   keywords: ["Web3", "AI Agent", "AMA", "Blockchain", "DApp", "Base chain"],

@@ -90,7 +90,7 @@ export default function Navbar() {
                 color: "#ffffff",
               }}
             >
-              VORENA
+              Vorena
             </span>
           </a>
 

@@ -41,14 +41,14 @@ export default function Comparison() {
       <div className="max-w-5xl mx-auto px-6 lg:px-8 relative z-10">
         <div className="text-center mb-14 space-y-4">
           <span className="font-mono text-xs text-green-500 tracking-widest">
-            WHY VORENA?
+            WHY Vorena?
           </span>
           <h2 className="font-syne font-extrabold text-4xl lg:text-5xl text-white">
             There&apos;s simply{" "}
             <span className="text-green-500">no comparison</span>
           </h2>
           <p className="text-white/50 font-outfit max-w-md mx-auto">
-            Traditional AMA tools weren&apos;t built for Web3. VORENA was.
+            Traditional AMA tools weren&apos;t built for Web3. Vorena was.
           </p>
         </div>
 
@@ -65,7 +65,7 @@ export default function Comparison() {
                     <path d="M4 0.5L7 2.5V5.5L4 7.5L1 5.5V2.5L4 0.5Z" fill="black" />
                   </svg>
                 </span>
-                VORENA
+                Vorena
               </span>
             </div>
             <div className="px-6 py-4 text-center font-outfit text-sm text-white/30">

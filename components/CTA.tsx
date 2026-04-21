@@ -36,7 +36,7 @@ export default function CTA() {
 
             <p className="text-white/50 font-outfit text-lg leading-relaxed">
               Join 200+ Web3 projects that have transformed their community
-              communication with VORENA. Connect your wallet and launch in
+              communication with Vorena. Connect your wallet and launch in
               under 5 minutes.
             </p>
 

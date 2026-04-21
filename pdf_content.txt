@@ -1,0 +1,228 @@
+
+===== PAGE 1 =====
+Changes into vorena website 
+ 
+ 
+Core features section 
+Heading: Core Infrastructure for Web3 Communication 
+Subheading 
+Vorena enables projects to deploy, scale, and monetize communication through 
+autonomous AI agents. 
+ 
+FEATURE BLOCKS 
+ 
+1. AGENT CREATION STUDIO 
+Title: 
+
+===== PAGE 2 =====
+Agent Creation Studio 
+Description: 
+Build AI agents trained on your project’s knowledge. 
+ Upload documentation, define behavior, and deploy agents that understand your product 
+at a deep level. 
+ 
+2. PROJECT AI AMAs 
+Title: 
+Project AI AMAs 
+Description: 
+Launch fully automated AMA sessions powered by AI agents. 
+ Your agent hosts, answers, and engages — without requiring a human presence. 
+3. AGENT MARKETPLACE 
+Title: 
+Agent Marketplace 
+Description: 
+Access a growing ecosystem of AI agents. 
+Hire, rent, or deploy agents tailored for different project needs and communities. 
+ 
+4. AGENT REPUTATION SYSTEM 
+Title: 
+Agent Reputation System 
+
+===== PAGE 3 =====
+Description: 
+Evaluate performance through transparent, data-driven metrics. 
+ Each agent builds a reputation based on engagement, accuracy, and user feedback. 
+ 
+5. PUBLIC AMA FEED 
+Title: 
+Public AMA Feed 
+Description: 
+Explore live and upcoming AMA sessions across the ecosystem. 
+ Discover projects, interact with agents, and stay connected in real time. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== PAGE 4 =====
+ 
+ 
+• Instant AMAs 
+ Launch AI-powered sessions in seconds  
+• Always Active 
+ Agents respond 24/7 without downtime  
+• <2s Response 
+ Real-time interaction at scale  
+• Zero Coordination 
+ No scheduling, no manual effort  
+• Protocol-Aware 
+ Trained on your docs & logic  
+• Gasless Access 
+ Seamless for participants 
+ 
+ 
+ 
+
+===== PAGE 5 =====
+ 
+🧬 SECTION NAME: BUILT FOR WEB3 
+TEAMS 
+🧠 Heading 
+Built for teams that scale communication 
+Subheading 
+Vorena enables every role in a Web3 project to operate with consistent, autonomous 
+interaction. 
+ 
+🧩 CONTENT BLOCKS 
+ 
+
+===== PAGE 6 =====
+🧑‍💻 Founders 
+Title: 
+For Founders 
+Description: 
+Eliminate the need for constant presence. Launch AMAs, communicate updates, and 
+engage your community — without coordination overhead. 
+Stay visible without being online. 
+ 
+📊 Community Managers 
+Title: 
+For Community Managers 
+Description: 
+Keep conversations active and responsive at all times. 
+ Vorena ensures every question is answered and every user interaction is handled 
+instantly. 
+Key Line: 
+No missed questions. No dead chats. 
+ 
+🧠 Builders 
+Title: 
+For Builders 
+Description: 
+
+===== PAGE 7 =====
+Deploy agents trained on your protocol’s logic and documentation. 
+ Let your product speak for itself through intelligent, always-available agents. 
+Key Line: 
+Turn your protocol into a living system. 
+ 
+🔥 OPTIONAL (BOTTOM LINE) 
+Add this under the section: 
+One system. Every interaction. Always active. 
+ 
+ 
+ 
+🟢 STARTER 
+Perfect for early-stage projects 
+
+===== PAGE 8 =====
+79 USDT / month 
+• 3 AMA sessions per month  
+• Up to 500 participants  
+• Agent configuration  
+• Session transcripts  
+CTA: 
+Get Started 
+ 
+🚀 GROWTH (HIGHLIGHT THIS) 
+For active communities and scaling projects 
+149 USDT / month 
+• Unlimited AMA sessions  
+• Up to 5,000 participants  
+• Advanced agent configuration  
+• RAG-based document training  
+• Session replay & analytics  
+• Moderation controls  
+CTA: 
+Start Growing 
+ 
+🏢 ENTERPRISE 
+For large protocols and ecosystems 
+Custom 
+
+===== PAGE 9 =====
+• Everything in Growth  
+• Unlimited participants  
+• Custom agent branding  
+• Marketplace access  
+• SLA guarantee (99.9%)  
+• Dedicated support & integrations  
+CTA: 
+Talk to Sales 
+ 
+------------------ 
+SECTION TITLE 
+System Evolution 
+ 
+🧠 SUBTEXT 
+Vorena is evolving from a single use-case into a foundational communication layer for 
+Web3. 
+ 
+⚡ STAGE 01 — COMMUNICATION 
+BOOTSTRAP 
+Establish real-time AI interaction as a primitive in Web3. 
+• AI AMA sessions via bot → dApp  
+• Real-time question handling  
+• Voice + chat interaction layer  
+• Session-based communication model  
+
+===== PAGE 10 =====
+ 
+🧠 STAGE 02 — AGENT INFRASTRUCTURE 
+Transition from sessions to persistent intelligence. 
+• Agent Creation Studio  
+• Protocol-trained agents (RAG)  
+• Personality + behavior configuration  
+• Persistent agent identity  
+ 
+🧩 STAGE 03 — AGENT ECONOMY 
+Introduce ownership, distribution, and monetization of agents. 
+• Agent Marketplace  
+• Pay-per-agent / subscription model  
+• Cross-project agent deployment  
+• Reputation-based ranking system  
+ 
+🌐 STAGE 04 — NETWORK LAYER 
+Move from isolated agents to an interconnected system. 
+• Agents interacting across projects  
+• Shared intelligence layer  
+• Cross-platform deployment  
+• Autonomous coordination between agents  
+ 
+
+===== PAGE 11 =====
+🏗 STAGE 05 — PROTOCOL STANDARD 
+Establish Vorena as the default communication interface for Web3. 
+• Communication SDK / API layer  
+• Native integration into dApps  
+• On-chain identity linkage  
+• Agent-as-a-service standard  
+ 
+🔥 CLOSING LINE (VERY IMPORTANT) 
+From interaction → infrastructure → standard. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -3,7 +3,7 @@
 const testimonials = [
   {
     quote:
-      "VORENA transformed how we communicate with our holders. Our AI agent handled 400+ questions in a single AMA with zero downtime. Absolutely game-changing.",
+      "Vorena transformed how we communicate with our holders. Our AI agent handled 400+ questions in a single AMA with zero downtime. Absolutely game-changing.",
     name: "Alex Mercer",
     role: "Co-Founder, AlphaDAO",
     initials: "AM",
@@ -24,7 +24,7 @@ const testimonials = [
   },
   {
     quote:
-      "On-chain payments were a dealbreaker for us with other platforms. VORENA solved that natively on Base. Clean, transparent, and trustless.",
+      "On-chain payments were a dealbreaker for us with other platforms. Vorena solved that natively on Base. Clean, transparent, and trustless.",
     name: "Sofia Eriksson",
     role: "Founder, MetaDAO",
     initials: "SE",
@@ -57,7 +57,7 @@ export default function Testimonials() {
           </span>
           <h2 className="font-syne font-extrabold text-4xl lg:text-5xl text-white">
             Web3 teams love{" "}
-            <span className="text-green-500">VORENA</span>
+            <span className="text-green-500">Vorena</span>
           </h2>
           <p className="text-white/50 font-outfit max-w-md mx-auto">
             Trusted by project founders, community managers, and builders
@@ -110,7 +110,7 @@ export default function Testimonials() {
           <div className="relative z-10 max-w-3xl mx-auto text-center space-y-6">
             <div className="text-6xl font-syne text-green-500/20">&ldquo;</div>
             <blockquote className="font-syne font-semibold text-xl lg:text-2xl text-white leading-relaxed">
-              With VORENA, our last AMA had zero unanswered questions for the
+              With Vorena, our last AMA had zero unanswered questions for the
               first time ever. The agent kept the session structured, engaging,
               and on-brand throughout.
             </blockquote>

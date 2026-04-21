@@ -1,75 +1,76 @@
 "use client";
 
-import { useRef, useState, ReactNode } from "react";
+import { useRef, useState } from "react";
 
-// Feature Icons definitions
-const IconBrain = () => (
-  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#00ff88" strokeWidth="1.5" />
-    <path d="M8 12C8 14.2091 9.79086 16 12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8" stroke="#00ff88" strokeWidth="1.5" strokeLinecap="round" />
-    <path d="M12 2V8" stroke="#00ff88" strokeWidth="1.5" strokeLinecap="round" />
-    <path d="M12 16V22" stroke="#00ff88" strokeWidth="1.5" strokeLinecap="round" />
-  </svg>
-);
-
-const IconPulse = () => (
+// Feature Icons
+const IconStudio = () => (
   <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
     <rect x="3" y="3" width="18" height="18" rx="4" stroke="#00ff88" strokeWidth="1.5" />
-    <path d="M3 12h4l2 -3 4 8 2 -5h6" stroke="#00ff88" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M8 8h8M8 12h5M8 16h6" stroke="#00ff88" strokeWidth="1.5" strokeLinecap="round" />
+    <circle cx="17" cy="14" r="3" stroke="#00ff88" strokeWidth="1.5" />
   </svg>
 );
 
-const IconShield = () => (
+const IconAMA = () => (
   <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-    <path d="M12 2L3 6v6.22c0 5.43 3.82 10.45 9 11.78 5.18-1.33 9-6.35 9-11.78V6l-9-4z" stroke="#00ff88" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-    <path d="M9 12l2 2 4-4" stroke="#00ff88" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" stroke="#00ff88" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M9 10h.01M12 10h.01M15 10h.01" stroke="#00ff88" strokeWidth="2" strokeLinecap="round" />
   </svg>
 );
 
-const IconBlock = () => (
+const IconMarketplace = () => (
   <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-    <path d="M12 2L2 7l10 5 10-5-10-5z" stroke="#00ff88" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-    <path d="M2 17l10 5 10-5" stroke="#00ff88" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-    <path d="M2 12l10 5 10-5" stroke="#00ff88" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" stroke="#00ff88" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M9 22V12h6v10" stroke="#00ff88" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+    <circle cx="12" cy="7" r="1" fill="#00ff88" />
   </svg>
 );
 
-const IconSettings = () => (
+const IconReputation = () => (
   <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-    <circle cx="12" cy="12" r="3" stroke="#00ff88" strokeWidth="1.5" />
-    <path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z" stroke="#00ff88" strokeWidth="1.5" />
+    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke="#00ff88" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+);
+
+const IconFeed = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <rect x="2" y="3" width="20" height="18" rx="3" stroke="#00ff88" strokeWidth="1.5" />
+    <path d="M2 9h20M9 9v12" stroke="#00ff88" strokeWidth="1.5" strokeLinecap="round" />
+    <circle cx="5.5" cy="6" r="1" fill="#00ff88" />
+    <circle cx="5.5" cy="6" r="1" fill="#00ff88" />
+    <path d="M13 13h5M13 16h3" stroke="#00ff88" strokeWidth="1.5" strokeLinecap="round" />
   </svg>
 );
 
 const features = [
   {
-    icon: <IconBrain />,
-    title: "On-Chain Intelligence",
-    desc: "Your agent autonomously reads live smart contracts, reads your whitepaper, and instantly answers any community questions.",
+    icon: <IconStudio />,
+    title: "Agent Creation Studio",
+    desc: "Build AI agents trained on your project's knowledge. Upload documentation, define behavior, and deploy agents that understand your product at a deep level.",
     wide: true,
   },
   {
-    icon: <IconPulse />,
-    title: "Sub-2s Responses",
-    desc: "Lightning fast responses via advanced RAG architecture tailored for Discord and Telegram.",
+    icon: <IconAMA />,
+    title: "Project AI AMAs",
+    desc: "Launch fully automated AMA sessions powered by AI agents. Your agent hosts, answers, and engages — without requiring a human presence.",
     wide: false,
   },
   {
-    icon: <IconShield />,
-    title: "Sybil & FUD Defense",
-    desc: "Built-in moderation AI tracks user intent, bans malicious actors, and handles coordinated FUD campaigns automatically.",
+    icon: <IconMarketplace />,
+    title: "Agent Marketplace",
+    desc: "Access a growing ecosystem of AI agents. Hire, rent, or deploy agents tailored for different project needs and communities.",
     wide: false,
   },
   {
-    icon: <IconSettings />,
-    title: "Brand Personality",
-    desc: "Is your community professional or degen? Give your agent specific instructions strictly modeling your brand's unique tone of voice.",
+    icon: <IconReputation />,
+    title: "Agent Reputation System",
+    desc: "Evaluate performance through transparent, data-driven metrics. Each agent builds a reputation based on engagement, accuracy, and user feedback.",
     wide: false,
   },
   {
-    icon: <IconBlock />,
-    title: "Automated Bounties",
-    desc: "Setup rules to instantly tip users on Base chain for good questions or engagement during AMA sessions.",
+    icon: <IconFeed />,
+    title: "Public AMA Feed",
+    desc: "Explore live and upcoming AMA sessions across the ecosystem. Discover projects, interact with agents, and stay connected in real time.",
     wide: true,
   },
 ];
@@ -145,14 +146,14 @@ function FeatureCard({
         {feat.wide && (
           <div className="absolute right-0 bottom-0 pointer-events-none opacity-20 group-hover:opacity-40 transition-opacity duration-700">
              <svg width="200" height="200" viewBox="0 0 200 200" fill="none" className="translate-x-1/4 translate-y-1/4">
-                <circle cx="100" cy="100" r="99" stroke="url(#paint0_linear)" strokeWidth="2" strokeDasharray="4 4" />
-                <circle cx="100" cy="100" r="70" stroke="url(#paint1_linear)" />
+                <circle cx="100" cy="100" r="99" stroke="url(#paint0_linear_feat)" strokeWidth="2" strokeDasharray="4 4" />
+                <circle cx="100" cy="100" r="70" stroke="url(#paint1_linear_feat)" />
                 <defs>
-                  <linearGradient id="paint0_linear" x1="100" y1="0" x2="100" y2="200" gradientUnits="userSpaceOnUse">
+                  <linearGradient id="paint0_linear_feat" x1="100" y1="0" x2="100" y2="200" gradientUnits="userSpaceOnUse">
                     <stop stopColor="#00ff88" />
                     <stop offset="1" stopColor="transparent" />
                   </linearGradient>
-                  <linearGradient id="paint1_linear" x1="0" y1="100" x2="200" y2="100" gradientUnits="userSpaceOnUse">
+                  <linearGradient id="paint1_linear_feat" x1="0" y1="100" x2="200" y2="100" gradientUnits="userSpaceOnUse">
                     <stop stopColor="transparent" />
                     <stop offset="1" stopColor="#00ff88" stopOpacity="0.5" />
                   </linearGradient>
@@ -178,7 +179,7 @@ export default function Features() {
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#00ff88]/10 border border-[#00ff88]/20">
             <span className="w-1.5 h-1.5 rounded-full bg-[#00ff88] animate-pulse" />
             <span className="text-xs font-medium tracking-widest text-[#00ff88]" style={{ fontFamily: "var(--font-mono), monospace" }}>
-              ENTERPRISE GRADE
+              CORE INFRASTRUCTURE
             </span>
           </div>
           
@@ -186,12 +187,12 @@ export default function Features() {
             className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white tracking-tight"
             style={{ fontFamily: "var(--font-syne), sans-serif", lineHeight: 1.1 }}
           >
-            Capabilities that feel <br className="hidden md:block" />
-            like <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-[#00ff88] to-[#00ff88]">magic.</span>
+            Core Infrastructure for <br className="hidden md:block" />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-[#00ff88] to-[#00ff88]">Web3 Communication</span>
           </h2>
           
           <p className="text-white/50 text-lg md:text-xl max-w-2xl font-light leading-relaxed" style={{ fontFamily: "var(--font-poppins), sans-serif" }}>
-            Everything you need to run flawless, autonomous communities at scale. Zero engineers required to set up.
+            Vorena enables projects to deploy, scale, and monetize communication through autonomous AI agents.
           </p>
         </div>
 

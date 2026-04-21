@@ -14,7 +14,7 @@ const steps = [
     ),
     title: "Connect Your Wallet",
     description:
-      "Link your Web3 wallet in seconds. VORENA supports all major wallets on the Base chain — no lengthy KYC or complicated setup required.",
+      "Link your Web3 wallet in seconds. Vorena supports all major wallets on the Base chain — no lengthy KYC or complicated setup required.",
   },
   {
     number: "02",
