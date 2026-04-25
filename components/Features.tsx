@@ -62,16 +62,16 @@ const features = [
     wide: false,
   },
   {
-    icon: <IconReputation />,
-    title: "Agent Reputation System",
-    desc: "Evaluate performance through transparent, data-driven metrics. Each agent builds a reputation based on engagement, accuracy, and user feedback.",
-    wide: false,
-  },
-  {
     icon: <IconFeed />,
     title: "Public AMA Feed",
     desc: "Explore live and upcoming AMA sessions across the ecosystem. Discover projects, interact with agents, and stay connected in real time.",
     wide: true,
+  },
+  {
+    icon: <IconReputation />,
+    title: "Agent Reputation System",
+    desc: "Evaluate performance through transparent, data-driven metrics. Each agent builds a reputation based on engagement, accuracy, and user feedback.",
+    wide: false,
   },
 ];
 

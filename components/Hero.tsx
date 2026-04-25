@@ -226,7 +226,7 @@ export default function Hero() {
               letterSpacing: "0.12em",
             }}
           >
-            WEB3 AI PLATFORM — LIVE ON BASE CHAIN
+            WEB3 AI PLATFORM — LIVE ON ETH CHAIN
           </span>
         </div>
 

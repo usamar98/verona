@@ -4,7 +4,6 @@ import HowItWorks from "@/components/HowItWorks";
 import Features from "@/components/Features";
 import Stats from "@/components/Stats";
 import BuiltForTeams from "@/components/BuiltForTeams";
-import Testimonials from "@/components/Testimonials";
 import Pricing from "@/components/Pricing";
 import Roadmap from "@/components/Roadmap";
 import FAQ from "@/components/FAQ";
@@ -20,7 +19,6 @@ export default function Home() {
       <Stats />
       <HowItWorks />
       <BuiltForTeams />
-      <Testimonials />
       <Pricing />
       <Roadmap />
       <FAQ />
