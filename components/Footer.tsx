@@ -11,7 +11,7 @@ const productLinks = [
 const socials = [
   {
     label: "X (Twitter)",
-    href: "#",
+    href: "https://x.com/vorenaofficial",
     icon: (
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
         <path
@@ -23,7 +23,7 @@ const socials = [
   },
   {
     label: "Telegram",
-    href: "#",
+    href: "https://t.me/vorenaportal",
     icon: (
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
         <path
@@ -83,6 +83,8 @@ export default function Footer() {
                   key={s.label}
                   href={s.href}
                   aria-label={s.label}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-white/50 hover:text-green-500 hover:border-green-500/30 hover:bg-green-500/5 transition-all duration-200"
                 >
                   {s.icon}
